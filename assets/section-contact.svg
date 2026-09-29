@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="52" viewBox="0 0 800 52" role="img" aria-label="Get in Touch">
-<defs><clipPath id="reveal"><rect x="58" y="0" width="742" height="52"><animate attributeName="width" values="0;14;28;42;56;70;84;98;112;126;140;154;168;742" calcMode="discrete" dur="1.8s" begin="0s" fill="freeze"/></rect></clipPath><linearGradient id="line" gradientUnits="userSpaceOnUse" x1="390" y1="27" x2="773" y2="27"><stop stop-color="#62dacb" stop-opacity=".5"/><stop offset="1" stop-color="#62dacb" stop-opacity="0"/></linearGradient></defs>
-<rect x=".5" y=".5" width="799" height="51" rx="9" fill="#0d1d2a" stroke="#23434f"/><path d="M1 15v22" stroke="#70ddca" stroke-width="2"/>
-<text x="20" y="32" font-family="monospace" font-size="13" fill="#d5b27a">04</text>
-<g clip-path="url(#reveal)"><text x="60" y="33" font-family="Verdana,Microsoft YaHei,sans-serif" font-size="22" font-weight="600" fill="#92e8da">Get in Touch</text></g>
-<path d="M390 27H773" stroke="url(#line)"/><circle cx="774" cy="27" r="2" fill="#6fc4bc"/></svg>
+<defs><clipPath id="reveal"><rect x="78" y="0" width="742" height="52"><animate attributeName="width" values="0;14;28;42;56;70;84;98;112;126;140;154;168;742" calcMode="discrete" dur="1.8s" begin="0s" fill="freeze"/></rect></clipPath><linearGradient id="line" gradientUnits="userSpaceOnUse" x1="390" y1="27" x2="773" y2="27"><stop stop-color="#62dacb" stop-opacity=".5"/><stop offset="1" stop-color="#62dacb" stop-opacity="0"/></linearGradient></defs>
+<rect x=".5" y=".5" width="799" height="51" rx="9" fill="#101e32" stroke="#23434f"/><path d="M1 15v22" stroke="#e6add9" stroke-width="2"/>
+<text x="20" y="34" font-family="Verdana,Microsoft YaHei,sans-serif" font-size="24" font-weight="600" fill="#d5b27a">04</text>
+<g clip-path="url(#reveal)"><text x="78" y="34" font-family="Verdana,Microsoft YaHei,sans-serif" font-size="24" font-weight="600" fill="#e6add9">Get in Touch</text></g>
+<path d="M390 27H773" stroke="url(#line)"/><circle cx="774" cy="27" r="2" fill="#6fc4bc"/><path d="m654 1 50 50m-27-50 50 50m-27-50 50 50m-27-50 50 50" stroke="#82e4d4" stroke-opacity=".14"/><path d="M16 49H210" stroke="#e6add9" stroke-opacity=".5"/></svg>

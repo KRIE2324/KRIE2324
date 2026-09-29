@@ -22,41 +22,29 @@
 
 ## <img src="assets/section-about.svg" alt="About Me" width="800" height="52">
 
-<table width="100%">
-<tr>
-<td width="55%" valign="top">
-<h3>From control to the ocean</h3>
-<p>I'm <strong>kyrie</strong>, a graduate student in <strong>Control Engineering</strong> at the <strong>University of Electronic Science and Technology of China (UESTC)</strong>.</p>
-<p>My research focuses on <strong>cooperative control of underwater robots</strong>.</p>
-</td>
-<td width="45%" valign="top">
-<h3>Explore with me</h3>
-<p>I share <strong>MATLAB learning and simulation code</strong> here.</p>
-<p>I welcome discussions about control engineering, underwater robotics, and cooperative control.</p>
-</td>
-</tr>
-</table>
+<p align="center">
+  <img src="assets/card-about.svg" alt="k / kyrie / UESTC / From control to the ocean / Graduate student in Control Engineering / University of Electronic Science and / Technology of China (UESTC) / Cooperative control of underwater robots / MATLAB learning &amp; simulation  /  Open to discussions" width="800" height="238">
+</p>
 
 ## <img src="assets/section-research.svg" alt="Research Interests" width="800" height="52">
 
-| Control engineering | Underwater robotics |
-| :--- | :--- |
-| Control methods and system simulation | Cooperative control of multiple robots |
+<p align="center">
+  <img src="assets/card-research.svg" alt="Control engineering / Control methods / System simulation / Underwater robotics / Cooperative control / of multiple underwater robots" width="800" height="200">
+</p>
 
 ## <img src="assets/section-project.svg" alt="Project" width="800" height="52">
 
-<table width="100%">
-<tr><td>
-<h3><a href="https://github.com/KRIE2324/Matlab-Learning">Matlab-Learning ↗</a></h3>
-<p>A repository of MATLAB learning and simulation code.</p>
-<p><a href="https://github.com/KRIE2324/Matlab-Learning/blob/main/Eventt11.m">Read Eventt11.m →</a> &nbsp; · &nbsp; <a href="https://github.com/KRIE2324/Matlab-Learning">Explore the repository →</a></p>
-</td></tr>
-</table>
+<p align="center">
+  <a href="https://github.com/KRIE2324/Matlab-Learning"><img src="assets/card-project.svg" alt="MATLAB / SIMULATION / Matlab-Learning / MATLAB learning and simulation code. / Start exploring with Eventt11.m. / Explore repository  ↗" width="800" height="206"></a>
+</p>
+
+[Eventt11.m ↗](https://github.com/KRIE2324/Matlab-Learning/blob/main/Eventt11.m)
 
 ## <img src="assets/section-contact.svg" alt="Get in Touch" width="800" height="52">
 
-<p align="center">Let's talk about research, simulations, or potential collaborations.</p>
-<p align="center"><strong><a href="mailto:kyrielrving123789@gmail.com">kyrielrving123789@gmail.com ↗</a></strong></p>
+<p align="center">
+  <a href="mailto:kyrielrving123789@gmail.com"><img src="assets/card-contact.svg" alt="Let&#x27;s connect / Research questions, simulations, and potential collaborations. / kyrielrving123789@gmail.com  ↗" width="800" height="154"></a>
+</p>
 
 ---
 

@@ -21,41 +21,29 @@
 
 ## <img src="assets/section-about-zh.svg" alt="关于我" width="800" height="52">
 
-<table width="100%">
-<tr>
-<td width="55%" valign="top">
-<h3>从控制走向海洋</h3>
-<p>你好，我是 <strong>kyrie</strong>，目前在<strong>电子科技大学</strong>攻读<strong>控制工程</strong>研究生。</p>
-<p>研究方向为<strong>水下机器人协同控制</strong>。</p>
-</td>
-<td width="45%" valign="top">
-<h3>一起探索与交流</h3>
-<p>我在这里分享 <strong>MATLAB 学习与仿真代码</strong>。</p>
-<p>欢迎围绕控制工程、水下机器人和协同控制交流想法。</p>
-</td>
-</tr>
-</table>
+<p align="center">
+  <img src="assets/card-about-zh.svg" alt="k / kyrie / UESTC / 从控制走向海洋 / 电子科技大学 · 控制工程研究生 / 研究方向：水下机器人协同控制。 / 分享 MATLAB 学习与仿真代码， / 欢迎一起交流控制、机器人与仿真实现。 / 探索 · 学习 · 交流" width="800" height="238">
+</p>
 
 ## <img src="assets/section-research-zh.svg" alt="研究方向" width="800" height="52">
 
-| 控制工程 | 水下机器人 |
-| :--- | :--- |
-| 控制方法与系统仿真 | 多机器人协同控制 |
+<p align="center">
+  <img src="assets/card-research-zh.svg" alt="控制工程 / 控制方法 / 系统仿真 / 水下机器人 / 多机器人协同控制 / 面向水下机器人系统" width="800" height="200">
+</p>
 
 ## <img src="assets/section-project-zh.svg" alt="项目" width="800" height="52">
 
-<table width="100%">
-<tr><td>
-<h3><a href="https://github.com/KRIE2324/Matlab-Learning">Matlab-Learning ↗</a></h3>
-<p>MATLAB 学习与仿真代码仓库。</p>
-<p><a href="https://github.com/KRIE2324/Matlab-Learning/blob/main/Eventt11.m">查看 Eventt11.m →</a> &nbsp; · &nbsp; <a href="https://github.com/KRIE2324/Matlab-Learning">浏览项目仓库 →</a></p>
-</td></tr>
-</table>
+<p align="center">
+  <a href="https://github.com/KRIE2324/Matlab-Learning"><img src="assets/card-project-zh.svg" alt="MATLAB / SIMULATION / Matlab-Learning / MATLAB 学习与仿真代码仓库。 / 从 Eventt11.m 开始浏览。 / 浏览项目仓库  ↗" width="800" height="206"></a>
+</p>
+
+[Eventt11.m ↗](https://github.com/KRIE2324/Matlab-Learning/blob/main/Eventt11.m)
 
 ## <img src="assets/section-contact-zh.svg" alt="联系我" width="800" height="52">
 
-<p align="center">欢迎交流研究问题、仿真实现与合作想法。</p>
-<p align="center"><strong><a href="mailto:kyrielrving123789@gmail.com">kyrielrving123789@gmail.com ↗</a></strong></p>
+<p align="center">
+  <a href="mailto:kyrielrving123789@gmail.com"><img src="assets/card-contact-zh.svg" alt="让想法在交流中前进 / 欢迎交流研究问题、仿真实现与合作想法。 / kyrielrving123789@gmail.com  ↗" width="800" height="154"></a>
+</p>
 
 ---
 
