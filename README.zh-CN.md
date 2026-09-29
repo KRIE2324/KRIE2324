@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/header.svg" alt="kyrie — 控制工程 · 水下机器人协同控制" width="100%">
+  <img src="assets/vessel.svg" alt="kyrie — 月光下随海浪起伏航行的科研船" width="100%">
 </p>
 
 <p align="center">

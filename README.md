@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/header.svg" alt="kyrie — Control Engineering and Underwater Robotics" width="100%">
+  <img src="assets/vessel.svg" alt="kyrie — a research vessel sailing across a moonlit ocean" width="100%">
 </p>
 
 <p align="center">
