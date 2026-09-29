@@ -1,46 +1,51 @@
 <p align="center">
-  <img src="assets/header.svg" alt="kyrie — 控制工程 · 水下机器人协同控制" width="100%">
+  <strong>English</strong> | <a href="README.zh-CN.md">简体中文</a>
 </p>
 
 <p align="center">
-  <strong>电子科技大学 · 控制工程研究生</strong><br>
-  专注于水下机器人协同控制
+  <img src="assets/header.svg" alt="kyrie — Control Engineering and Underwater Robotics" width="100%">
 </p>
 
 <p align="center">
-  <a href="mailto:kyrielrving123789@gmail.com">邮件联系</a>
+  <strong>Graduate Student in Control Engineering</strong><br>
+  University of Electronic Science and Technology of China (UESTC)<br>
+  Cooperative control of underwater robots
+</p>
+
+<p align="center">
+  <a href="mailto:kyrielrving123789@gmail.com">Email</a>
   &nbsp; / &nbsp;
-  <a href="https://github.com/KRIE2324/Matlab-Learning">MATLAB 项目</a>
+  <a href="https://github.com/KRIE2324/Matlab-Learning">MATLAB Project</a>
   &nbsp; / &nbsp;
-  <a href="https://github.com/KRIE2324?tab=repositories">全部仓库</a>
+  <a href="https://github.com/KRIE2324?tab=repositories">All Repositories</a>
 </p>
 
 ---
 
-### 关于我
+### About Me
 
-你好，我是 **kyrie**，目前在**电子科技大学**攻读控制工程研究生，研究方向为**水下机器人协同控制**。
+Hi, I'm **kyrie**, a graduate student in **Control Engineering** at the **University of Electronic Science and Technology of China (UESTC)**. My research focuses on **cooperative control of underwater robots**.
 
-我在这里分享 MATLAB 学习与仿真代码，也欢迎围绕控制工程、水下机器人和协同控制交流想法。
+I share MATLAB learning and simulation code here. I welcome discussions about control engineering, underwater robotics, and cooperative control.
 
-### 研究方向
+### Research Interests
 
-| 领域 | 关注方向 |
+| Area | Focus |
 | :--- | :--- |
-| 控制工程 | 控制方法与系统仿真 |
-| 水下机器人 | 多机器人协同控制 |
+| Control engineering | Control methods and system simulation |
+| Underwater robotics | Cooperative control of multiple robots |
 
-### 项目
+### Project
 
 **[Matlab-Learning](https://github.com/KRIE2324/Matlab-Learning)**
 
-MATLAB 学习与仿真代码仓库，包含 [Eventt11.m](https://github.com/KRIE2324/Matlab-Learning/blob/main/Eventt11.m) 等脚本。
+A repository of MATLAB learning and simulation code, including [Eventt11.m](https://github.com/KRIE2324/Matlab-Learning/blob/main/Eventt11.m).
 
-[浏览代码 →](https://github.com/KRIE2324/Matlab-Learning)
+[Explore the code →](https://github.com/KRIE2324/Matlab-Learning)
 
-### 联系我
+### Get in Touch
 
-欢迎交流研究问题、仿真实现与合作想法。
+Feel free to reach out to discuss research questions, simulation implementations, or potential collaborations.
 
 **Email:** [kyrielrving123789@gmail.com](mailto:kyrielrving123789@gmail.com)
 
