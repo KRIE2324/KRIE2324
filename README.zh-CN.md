@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/ocean.svg" alt="科考船轻摇、水下机器人编队航行与蓝色声波脉冲动画" width="800" height="300">
+  <img src="assets/ocean.svg" alt="科考船轻摇、水下机器人编队航行与蓝色声波脉冲动画" width="800" height="350">
 </p>
 
 <p align="center">
@@ -19,32 +19,43 @@
 
 ---
 
-### 关于我
+## <img src="assets/section-about-zh.svg" alt="关于我" width="800" height="52">
 
-你好，我是 **kyrie**，目前在**电子科技大学**攻读控制工程研究生，研究方向为**水下机器人协同控制**。
+<table width="100%">
+<tr>
+<td width="55%" valign="top">
+<h3>从控制走向海洋</h3>
+<p>你好，我是 <strong>kyrie</strong>，目前在<strong>电子科技大学</strong>攻读<strong>控制工程</strong>研究生。</p>
+<p>研究方向为<strong>水下机器人协同控制</strong>。</p>
+</td>
+<td width="45%" valign="top">
+<h3>一起探索与交流</h3>
+<p>我在这里分享 <strong>MATLAB 学习与仿真代码</strong>。</p>
+<p>欢迎围绕控制工程、水下机器人和协同控制交流想法。</p>
+</td>
+</tr>
+</table>
 
-我在这里分享 MATLAB 学习与仿真代码，也欢迎围绕控制工程、水下机器人和协同控制交流想法。
+## <img src="assets/section-research-zh.svg" alt="研究方向" width="800" height="52">
 
-### 研究方向
-
-| 领域 | 关注方向 |
+| 控制工程 | 水下机器人 |
 | :--- | :--- |
-| 控制工程 | 控制方法与系统仿真 |
-| 水下机器人 | 多机器人协同控制 |
+| 控制方法与系统仿真 | 多机器人协同控制 |
 
-### 项目
+## <img src="assets/section-project-zh.svg" alt="项目" width="800" height="52">
 
-**[Matlab-Learning](https://github.com/KRIE2324/Matlab-Learning)**
+<table width="100%">
+<tr><td>
+<h3><a href="https://github.com/KRIE2324/Matlab-Learning">Matlab-Learning ↗</a></h3>
+<p>MATLAB 学习与仿真代码仓库。</p>
+<p><a href="https://github.com/KRIE2324/Matlab-Learning/blob/main/Eventt11.m">查看 Eventt11.m →</a> &nbsp; · &nbsp; <a href="https://github.com/KRIE2324/Matlab-Learning">浏览项目仓库 →</a></p>
+</td></tr>
+</table>
 
-MATLAB 学习与仿真代码仓库，包含 [Eventt11.m](https://github.com/KRIE2324/Matlab-Learning/blob/main/Eventt11.m) 等脚本。
+## <img src="assets/section-contact-zh.svg" alt="联系我" width="800" height="52">
 
-[浏览代码 →](https://github.com/KRIE2324/Matlab-Learning)
-
-### 联系我
-
-欢迎交流研究问题、仿真实现与合作想法。
-
-**Email:** [kyrielrving123789@gmail.com](mailto:kyrielrving123789@gmail.com)
+<p align="center">欢迎交流研究问题、仿真实现与合作想法。</p>
+<p align="center"><strong><a href="mailto:kyrielrving123789@gmail.com">kyrielrving123789@gmail.com ↗</a></strong></p>
 
 ---
 

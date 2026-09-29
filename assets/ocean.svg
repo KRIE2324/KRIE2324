@@ -1,104 +1,92 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="300" viewBox="0 0 800 300" role="img" aria-labelledby="title desc">
-  <title id="title">Research vessel and underwater robots</title>
-  <desc id="desc">A research vessel rocks gently above three underwater robots. Blue sonar arcs pulse around the lead robot as the formation cruises beneath the surface.</desc>
-  <defs>
-    <linearGradient id="sea" x2="0" y2="1">
-      <stop stop-color="#0b2239"/>
-      <stop offset="1" stop-color="#07121f"/>
-    </linearGradient>
-    <linearGradient id="hull" x2="0" y2="1">
-      <stop stop-color="#eff7ff"/>
-      <stop offset="1" stop-color="#96aec4"/>
-    </linearGradient>
-    <linearGradient id="metal" x2="0" y2="1">
-      <stop stop-color="#d6edfa"/>
-      <stop offset=".45" stop-color="#73adc5"/>
-      <stop offset="1" stop-color="#274d69"/>
-    </linearGradient>
-    <linearGradient id="beam" x1="0" y1="0" x2="1" y2="0">
-      <stop stop-color="#53def8" stop-opacity=".13"/>
-      <stop offset="1" stop-color="#53def8" stop-opacity="0"/>
-    </linearGradient>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M40 0H0V40" fill="none" stroke="#69b8d8" stroke-opacity=".055"/>
-    </pattern>
-    <clipPath id="frame"><rect width="800" height="300" rx="16"/></clipPath>
-    <g id="robot">
-      <path d="M-50-6-66-19-60-3-66 14-50 6" fill="#43809d" stroke="#76b4cc" stroke-width="1"/>
-      <path d="M-36-10-21-23-13-23-17-9M-20 9-12 22-22 22-36 9" fill="#2e6480" stroke="#75b9d1" stroke-width="1"/>
-      <path d="M-53-9H18Q42-9 51 0 42 9 18 9H-53Z" fill="url(#metal)" stroke="#a4d6e8" stroke-width="1"/>
-      <path d="M18-9Q23 0 18 9" fill="none" stroke="#1c465f" stroke-width="2"/>
-      <path d="M-35-9V9M-29-9V9" stroke="#e4b75c" stroke-width="3"/>
-      <path d="M-23-3H11" stroke="#e0f8ff" stroke-opacity=".7"/>
-      <circle cx="33" cy="0" r="3" fill="#051927" stroke="#76e8fc"/>
-      <rect x="-7" y="-13" width="10" height="4" rx="1" fill="#88b5c8"/>
-      <path d="M-57-8V8" stroke="#b0d8e7" stroke-width="2"/>
-      <path d="M-75-4H-89M-73 3H-99" stroke="#66cde7" stroke-opacity=".28" stroke-linecap="round"/>
-    </g>
-  </defs>
-  <style>
-    .ship { transform-origin: 245px 119px; animation: rock 7s ease-in-out infinite; }
-    .fleet { animation: cruise 10s ease-in-out infinite; }
-    .sonar { animation: pulse 5s ease-in-out infinite; }
-    @keyframes rock { 0%,100% { transform: translateY(0) rotate(-.6deg); } 50% { transform: translateY(2px) rotate(.6deg); } }
-    @keyframes cruise { 0%,100% { transform: translate(0,0); } 50% { transform: translate(12px,-3px); } }
-    @keyframes pulse { 0%,100% { opacity: .18; } 50% { opacity: .85; } }
-  </style>
-  <g clip-path="url(#frame)">
-    <rect width="800" height="300" fill="#0b1421"/>
-    <path d="M0 120H800V300H0Z" fill="url(#sea)"/>
-    <rect y="121" width="800" height="179" fill="url(#grid)"/>
-    <!-- Distant coastline and a restrained technical frame. -->
-    <path d="m510 114 37-12 21 6 33-17 47 21 38-7 46 10 35-6 33 5" fill="none" stroke="#476a81" stroke-opacity=".3"/>
-    <path d="M24 42V24H42M758 24H776V42M24 258V276H42M758 276H776V258" fill="none" stroke="#39829e" stroke-opacity=".55"/>
-    <circle cx="749" cy="39" r="3" fill="#59d6e6"/>
-    <path d="M716 39H737" stroke="#59d6e6" stroke-opacity=".4"/>
-    <!-- Research vessel: working deck, bridge, mast, radar and stern crane. -->
-    <g class="ship">
-      <path d="M104 99H373L355 117Q347 123 324 123H130Q115 119 104 99Z" fill="url(#hull)"/>
-      <path d="M116 113H359L350 120 328 124H134Z" fill="#217491"/>
-      <path d="M105 100H370" stroke="#e6faff" stroke-width="2"/>
-      <path d="M226 73H317L333 99H218Z" fill="#bfd1df"/>
-      <path d="M245 52H307L316 73H234Z" fill="#e3edf4"/>
-      <path d="M248 57H260V67H243ZM265 57H278V67H265ZM283 57H303L307 67H283Z" fill="#153e55"/>
-      <path d="M244 58H259M266 58H277M284 58H302" stroke="#6bb7d1"/>
-      <path d="M238 76H302" stroke="#fff" stroke-opacity=".5"/>
-      <path d="M250 82H260V91H250ZM271 82H281V91H271ZM292 82H302V91H292Z" fill="#31566b"/>
-      <path d="M265 52V26M248 38H289M265 27H277" fill="none" stroke="#9db5c6" stroke-width="2"/>
-      <rect x="273" y="24" width="19" height="4" rx="2" fill="#d6e8f3"/>
-      <path d="M266 37 278 50M257 49V41" stroke="#6c92ac"/>
-      <circle cx="265" cy="24" r="2" fill="#7ce6eb"/>
-      <path d="M147 98V63H185L201 77M153 98V69H181L194 80" fill="none" stroke="#e2b967" stroke-width="3" stroke-linejoin="round"/>
-      <path d="M198 78V89q0 7-6 4" fill="none" stroke="#b7cbd7" stroke-width="1.5"/>
-      <rect x="163" y="87" width="30" height="11" rx="2" fill="#3e6c85"/>
-      <path d="M169 89V96M175 89V96M181 89V96M187 89V96" stroke="#7496ab"/>
-      <path d="M111 96V86H215M121 86V97M139 86V97M205 86V97M326 87H354V97M339 87V98" fill="none" stroke="#b4cad8" stroke-width="1.2"/>
-      <path d="M306 108H333" stroke="#214b66" stroke-width="2"/>
-      <circle cx="143" cy="108" r="2" fill="#264d65"/>
-      <circle cx="157" cy="108" r="2" fill="#264d65"/>
-      <circle cx="171" cy="108" r="2" fill="#264d65"/>
-    </g>
-    <!-- Surface and wake stay static to keep the painted area small. -->
-    <path d="M0 121q40-4 80 0t80 0 80 0 80 0 80 0 80 0 80 0 80 0 80 0 80 0" fill="none" stroke="#63d7ea" stroke-opacity=".6"/>
-    <path d="M78 128H139M112 133H178M280 129H369M336 134H386" stroke="#7bd5e5" stroke-opacity=".2" stroke-linecap="round"/>
-    <path d="M270 136 322 246M291 136 357 228" stroke="#50b6d4" stroke-opacity=".1" stroke-dasharray="3 8"/>
-    <g class="fleet">
-      <!-- Faint formation connections, with three distinct vehicle silhouettes. -->
-      <path d="M356 190 488 237 593 182Z" fill="#39bfe2" fill-opacity=".025" stroke="#52cfea" stroke-opacity=".23" stroke-dasharray="3 7"/>
-      <g transform="translate(356 190) scale(.8)"><use href="#robot"/></g>
-      <g transform="translate(488 237) scale(.68)"><use href="#robot"/></g>
-      <g transform="translate(593 182)">
-        <path d="M50 0 153-44V44Z" fill="url(#beam)"/>
-        <g class="sonar" fill="none" stroke="#63dff3" stroke-width="1.5" stroke-linecap="round">
-          <path d="M68-14Q80 0 68 14"/>
-          <path d="M87-24Q106 0 87 24" stroke-opacity=".65"/>
-          <path d="M109-35Q136 0 109 35" stroke-opacity=".35"/>
-        </g>
-        <use href="#robot"/>
-      </g>
-    </g>
-    <path d="M0 289 78 281 149 290 218 280 299 294 394 286 481 293 576 283 665 292 735 279 800 288V300H0Z" fill="#060e19"/>
-    <path d="M43 159H76M43 164H61M43 169H69" stroke="#64b7d1" stroke-opacity=".22"/>
-  </g>
-  <rect x=".5" y=".5" width="799" height="299" rx="16" fill="none" stroke="#244357" stroke-opacity=".7"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420" role="img" aria-labelledby="title desc">
+<title id="title">Into the blue</title><desc id="desc">A research vessel on a moonlit ocean, with detailed underwater robots, soft searchlights and sonar pulses.</desc>
+<defs>
+<linearGradient id="sky" x2=".8" y2="1"><stop stop-color="#101a2a"/><stop offset="1" stop-color="#234a58"/></linearGradient>
+<linearGradient id="water" x2=".2" y2="1"><stop stop-color="#154c58"/><stop offset=".5" stop-color="#092c39"/><stop offset="1" stop-color="#060f1e"/></linearGradient>
+<linearGradient id="white" x2=".1" y2="1"><stop stop-color="#f0efda"/><stop offset="1" stop-color="#789ca8"/></linearGradient>
+<linearGradient id="metal" x2=".1" y2="1"><stop stop-color="#b7d8d2"/><stop offset=".18" stop-color="#597e86"/><stop offset=".5" stop-color="#284955"/><stop offset=".85" stop-color="#122b39"/><stop offset="1" stop-color="#5a8590"/></linearGradient>
+<linearGradient id="amber" x2="0" y2="1"><stop stop-color="#ffe5a9"/><stop offset=".4" stop-color="#d4a259"/><stop offset="1" stop-color="#695035"/></linearGradient>
+<linearGradient id="beam"><stop stop-color="#a2fce6" stop-opacity=".19"/><stop offset="1" stop-color="#9cf4de" stop-opacity="0"/></linearGradient>
+<linearGradient id="shaft" x2=".2" y2="1"><stop stop-color="#80dccd" stop-opacity=".14"/><stop offset="1" stop-color="#80dccd" stop-opacity="0"/></linearGradient>
+<radialGradient id="aura"><stop stop-color="#51d4c9" stop-opacity=".14"/><stop offset="1" stop-color="#51d4c9" stop-opacity="0"/></radialGradient>
+<clipPath id="frame"><rect width="960" height="420" rx="20"/></clipPath>
+<g id="scout"><path d="m-42-5-15-13 6 16-7 15 16-8" fill="#38616d" stroke="#71a4ac"/><path d="m-30-8 16-14 8 1-8 14m-16 13 19 15 9-1-10-15" fill="#2a5260" stroke="#648d97"/><path d="M-44-8H18Q37-7 46 0 34 10 18 9H-44Z" fill="url(#metal)" stroke="#8eb9bd"/><path d="M-27-8V8M-20-8V8" stroke="#dfb76a" stroke-width="3"/><path d="M-9-4H17" stroke="#b1e6dc"/><circle cx="32" r="2" fill="#c9fff1"/><path d="M-66-2H-88m27 7h-16" stroke="#8ee9df" opacity=".25"/></g>
+</defs>
+<style>.ship{transform-origin:266px 144px;animation:rock 8s ease-in-out infinite}.fleet{animation:cruise 12s ease-in-out infinite}.sonar{animation:ping 6s ease-in-out infinite}@keyframes rock{0%,100%{transform:rotate(-.35deg)}50%{transform:translateY(2px) rotate(.35deg)}}@keyframes cruise{0%,100%{transform:translate(0,0)}50%{transform:translate(8px,-4px)}}@keyframes ping{0%,100%{opacity:.2}50%{opacity:.8}}</style>
+<g clip-path="url(#frame)"><rect width="960" height="160" fill="url(#sky)"/><circle cx="778" cy="65" r="115" fill="url(#aura)"/><circle cx="778" cy="65" r="22" fill="#becfc7" opacity=".8"/><circle cx="785" cy="60" r="22" fill="#214553"/>
+<path d="m475 139 54-31 32 14 42-27 57 30 29-10 37 23 47-31 43 19 24-10 63 23 57-13v32H475Z" fill="#162f3e"/>
+<path d="M0 150Q150 144 300 150T600 150T960 150V420H0Z" fill="url(#water)"/>
+<ellipse cx="566" cy="233" rx="375" ry="183" fill="url(#aura)"/>
+<path d="m132 151 52 0 190 254-79 0Zm135 0h28l200 269h-57Zm398 0h19l55 199h-30Z" fill="url(#shaft)"/>
+
+<path d="M-30 327Q92 275 184 327T390 337 581 363 798 328 984 333" fill="none" stroke="#477d89" stroke-width=".7" opacity=".25"/>
+<path d="M-30 339Q92 287 184 339T390 349 581 375 798 340 984 345" fill="none" stroke="#477d89" stroke-width=".7" opacity=".25"/>
+<path d="M-30 351Q92 299 184 351T390 361 581 387 798 352 984 357" fill="none" stroke="#477d89" stroke-width=".7" opacity=".25"/>
+<path d="M-30 363Q92 311 184 363T390 373 581 399 798 364 984 369" fill="none" stroke="#477d89" stroke-width=".7" opacity=".25"/>
+<path d="M-30 375Q92 323 184 375T390 385 581 411 798 376 984 381" fill="none" stroke="#477d89" stroke-width=".7" opacity=".25"/>
+<path d="M-30 387Q92 335 184 387T390 397 581 423 798 388 984 393" fill="none" stroke="#477d89" stroke-width=".7" opacity=".25"/>
+<path d="M-30 399Q92 347 184 399T390 409 581 435 798 400 984 405" fill="none" stroke="#477d89" stroke-width=".7" opacity=".25"/>
+<g class="ship">
+<path d="m101 122 244-8 76 11-32 18-256 5Z" fill="#849e9e"/>
+<path d="m101 122 32 26 256-5 32-18-52 7-235 6Z" fill="url(#metal)" stroke="#7197a0" stroke-width=".8"/>
+<path d="m111 135 23 10 251-4 26-11-41 7Z" fill="#ce985a"/>
+<path d="m129 145 5 4 248-3 6-5Z" fill="#081e2c"/><path d="m102 123 33 16 234-6 51-8" fill="none" stroke="#dbe5dc" stroke-width="1.8"/>
+<path d="m140 133 181-5 34-10-186 6Z" fill="#385666"/>
+<path d="m248 89 68-5 34 13-1 30-107 4Z" fill="url(#white)"/><path d="m316 84 34 13-1 30-31-8Z" fill="#648a99"/>
+<path d="m243 87 74-5 37 13-76 5Z" fill="#dfe7da"/>
+<path d="m263 65 50-4 24 10-2 23-72 5Z" fill="url(#white)"/><path d="m313 61 24 10-2 23-23-10Z" fill="#6c96a1"/>
+<path d="m258 65 55-5 28 11-58 5Z" fill="#eaecdc"/>
+<path d="m267 73 12-1v12l-12 1Zm16-1 12-1v12l-12 1Zm16-1 10-1v12l-10 1Zm17-1 7 3v11l-7-3Zm10 4 7 2v11l-7-2Z" fill="#204352"/>
+<path d="m267 73 12-1m4 0 12-1m4 0 10-1" stroke="#b9e3d7" stroke-width=".8"/>
+<path d="M278 63V33l4-1v30m-9-18 36-3m-27-7 21-1m-12 9v17m-14-19-15 20m19-18 17 16" fill="none" stroke="#abc0bf" stroke-width="1.3"/>
+<path d="m297 31 17-1v4l-17 1Z" fill="#e3e4d2"/><circle cx="280" cy="30" r="1.8" fill="#f0c989"/>
+<path d="m250 102 64-4v4l-64 4Z" fill="#dce1d5"/><path d="m253 110 9-1v8l-9 1Zm17-1 9-1v8l-9 1Zm17-1 9-1v8l-9 1Zm35-5 19 6v5l-19-6Z" fill="#2c4c59"/>
+<path d="m242 115-15-6-1-16 13-1 8 6Z" fill="#becdc5"/><path d="m226 94 13-1v5l-13 1Z" fill="#d9b275"/>
+<path d="M154 129V84l34-2 21 30M161 128V91l23-2 19 27" fill="none" stroke="#d8ac70" stroke-width="3.2" stroke-linejoin="round"/>
+<path d="m156 85 11-5 27-1 20 29m-25-26 5-3m14 32 6-3" fill="none" stroke="#f4d298" stroke-width="1.2"/>
+<path d="M207 110v10q0 6-5 3" fill="none" stroke="#adc5c5"/>
+<path d="m176 116 25-1 9 5-26 2Z" fill="#8da6a1"/><path d="m176 116 8 6v8l-8-4Z" fill="#355969"/><path d="m184 122 26-2v8l-26 2Z" fill="#4b737c"/>
+<path d="m189 123 0 5m5-5v5m5-6v5m5-5v4" stroke="#abc1bd" stroke-width=".7"/>
+<ellipse cx="224" cy="121" rx="8" ry="4" fill="#193240" stroke="#8ca6aa"/><path d="M224 117v8m-3-7v6m6-6v6" stroke="#638791"/>
+<path d="m108 120 31 12 102-4m-129-7v-8l28 11 101-4m-101 4v8m17-9v8m21-10v9m22-10v9m21-10v9m135-7 37-2 20-9m-54 3v-8l36-2 24-6m-40 8v9m18-10v8m15-14v9" fill="none" stroke="#b4c9c4" stroke-width=".8"/>
+<path d="m141 140 198-5" stroke="#7bb3b8" stroke-width=".7"/>
+</g>
+<path d="M0 151q72-4 144 0t144 0 144 0 144 0 144 0 144 0 144 0" fill="none" stroke="#8ce1d3" opacity=".5"/>
+<path d="m115 155 69 1m64-1 123-3m-23 7 65-3m-325 3h39m17 6 68-2m84 2 35-2m81-2 26-2" fill="none" stroke="#91dfce" opacity=".2"/>
+<g class="fleet"><path d="M291 247 487 337 624 260Z" fill="#73e8d3" fill-opacity=".018" stroke="#72c2be" stroke-opacity=".21" stroke-dasharray="2 7"/>
+<g transform="translate(291 247) rotate(-5) scale(.85)"><use href="#scout"/></g><g transform="translate(487 337) rotate(-5) scale(.65)"><use href="#scout"/></g>
+<g transform="translate(599 264) rotate(-9)">
+<path d="m104-4 175-69V84L104 8Z" fill="url(#beam)"/><path d="m88 21 168 11-2 52Z" fill="url(#beam)" opacity=".5"/>
+<path d="m-89-8-38-38-22-1 24 37-18 28 22-3 35-17Z" fill="#183441" stroke="#6c989d"/><path d="m-125-45 8 1 21 30-8-1Z" fill="#b78c4f"/>
+<path d="m-58-20 38-42 18 1-10 43Z" fill="#244653" stroke="#7b9fa2"/><path d="m-17-60 10 1-10 40-7-1Z" fill="#cfa562"/>
+<path d="m-56 18 28 39 24 2-13-41Z" fill="#17333f" stroke="#547c85"/><path d="m-24 50 14 3 3 6-18-2Z" fill="#a17c4b"/>
+<path d="M-98-16Q-47-25 40-22 95-20 114 0 100 23 42 24-47 26-98 14Z" fill="url(#metal)" stroke="#7fa5a6" stroke-width="1.1"/>
+<path d="M-94-14Q-32-24 41-20 87-17 104-4" fill="none" stroke="#c1ded5" stroke-width="1.2" opacity=".75"/>
+<path d="M-95 12Q-31 25 38 21 78 20 101 9" fill="none" stroke="#477c86" stroke-width="1.4"/>
+<path d="M-57-21Q-49 0-56 21L-36 23Q-28 0-37-23Z" fill="url(#amber)"/><path d="M-50-22Q-42 0-49 22" fill="none" stroke="#fae0a3" stroke-width=".8"/>
+<path d="M38-22Q48 0 40 24M48-21Q58 0 51 23" fill="none" stroke="#0a2633" stroke-width="1.5"/>
+<path d="M-23-14 25-14 30-9-20-9Z" fill="#a2c9c6" opacity=".65"/><path d="M-19-5H27V9H-19Z" fill="#122e3b" stroke="#456d78" stroke-width=".7"/>
+<path d="M-13-1H4m-17 4H9m8-4h5m-5 4h5" stroke="#608996" stroke-width=".8"/>
+<g fill="#b8cac3"><circle cx="-24" cy="-15" r="1"/><circle cx="30" cy="-15" r="1"/><circle cx="-24" cy="15" r="1"/><circle cx="30" cy="15" r="1"/></g>
+<path d="m-8-24 7-10 22 1 11 11Z" fill="#3d626b" stroke="#7da1a4" stroke-width=".7"/><path d="m-1-31 20 1 6 5H-5Z" fill="#adc7bf"/>
+<path d="M8-34v-11" stroke="#8bafb0" stroke-width="1.3"/><circle cx="8" cy="-46" r="2" fill="#d8c69c"/>
+<ellipse cx="95" cy="0" rx="13" ry="16" fill="#0c222d" stroke="#7caaa9"/><ellipse cx="99" cy="0" rx="7" ry="10" fill="#254c56" stroke="#5d979b"/><ellipse cx="101" cy="-1" rx="3" ry="5" fill="#baf5e3"/>
+<path d="m49 20 10 10 27-1 7-11" fill="#183743" stroke="#689396" stroke-width=".8"/><circle cx="77" cy="25" r="4" fill="#132730" stroke="#739c9d"/><circle cx="78" cy="25" r="1.7" fill="#b8f3df"/>
+<path d="M-103-12v24" stroke="#adc8c5" stroke-width="2"/><ellipse cx="-105" cy="0" rx="3" ry="13" fill="none" stroke="#517d86"/>
+<path d="M-122-2h-50m59 8h-30m18-17h-19m-40 9h-12" fill="none" stroke="#86cecb" opacity=".24"/>
+<g class="sonar" fill="none" stroke="#86e8d6" stroke-linecap="round"><path d="M135-25Q153 0 135 25" stroke-width="1.5"/><path d="M156-39Q184 0 156 39" opacity=".65"/><path d="M178-54Q218 0 178 54" opacity=".35"/></g></g></g>
+
+<circle cx="558" cy="30" r="0.8" fill="#a4d9d1" opacity=".4"/>
+<circle cx="657" cy="59" r="0.7" fill="#a4d9d1" opacity=".4"/>
+<circle cx="863" cy="33" r="0.8" fill="#a4d9d1" opacity=".4"/>
+<circle cx="705" cy="24" r="0.6" fill="#a4d9d1" opacity=".4"/>
+<circle cx="493" cy="56" r="0.7" fill="#a4d9d1" opacity=".4"/>
+<circle cx="907" cy="77" r="0.6" fill="#a4d9d1" opacity=".4"/>
+<circle cx="167" cy="226" r="1.1" fill="#a4d9d1" opacity=".4"/>
+<circle cx="443" cy="207" r="0.8" fill="#a4d9d1" opacity=".4"/>
+<circle cx="767" cy="343" r="1" fill="#a4d9d1" opacity=".4"/>
+<circle cx="819" cy="210" r="0.8" fill="#a4d9d1" opacity=".4"/>
+<circle cx="370" cy="307" r="0.7" fill="#a4d9d1" opacity=".4"/>
+<circle cx="221" cy="344" r="0.7" fill="#a4d9d1" opacity=".4"/>
+<path d="M35 191v180m0-170h9m-9 22h5m-5 22h9m-9 22h5m-5 22h9m-9 22h5m-5 22h9m-9 22h5M22 45V22H45M915 22h23v23M22 375v23h23M915 398h23v-23" fill="none" stroke="#77b1b5" opacity=".3"/>
+<path d="M-10 408 64 386 119 399 190 388 257 413 354 398 445 421H-10ZM731 420l68-28 35 6 45-25 40 17 51-8v38Z" fill="#050e19"/></g><rect x=".5" y=".5" width="959" height="419" rx="20" fill="none" stroke="#719b9e" stroke-opacity=".25"/></svg>
