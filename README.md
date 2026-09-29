@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="https://giphy.com/gifs/26tn33aiTi1jkl6H6"><img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" alt="Animated programming code on a dark screen" width="640"></a>
+  <a href="https://tenor.com/view/spectral-vision-timenotspace-time-space-gif-15111750411617268134"><img src="https://media1.tenor.com/m/0be47xLPcaYAAAAC/spectral-vision.gif" alt="Animated blue glowing particles forming and reshaping a sphere on a black background" width="640"></a>
 </p>
 
 <p align="center">

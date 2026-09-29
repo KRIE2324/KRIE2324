@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="https://giphy.com/gifs/26tn33aiTi1jkl6H6"><img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" alt="黑色屏幕上滚动的彩色程序代码动态图" width="640"></a>
+  <a href="https://tenor.com/view/spectral-vision-timenotspace-time-space-gif-15111750411617268134"><img src="https://media1.tenor.com/m/0be47xLPcaYAAAAC/spectral-vision.gif" alt="黑色背景中蓝色发光粒子聚散、球体形态变化的动态图" width="640"></a>
 </p>
 
 <p align="center">
