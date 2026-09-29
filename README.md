@@ -2,8 +2,10 @@
   <sub>EN &nbsp; / &nbsp; <a href="README.zh-CN.md">简体中文 ↗</a></sub>
 </p>
 
+<h2 align="center">Hi there, I'm kyrie</h2>
+
 <p align="center">
-  <a href="https://tenor.com/view/spectral-vision-timenotspace-time-space-gif-15111750411617268134"><img src="https://media1.tenor.com/m/0be47xLPcaYAAAAC/spectral-vision.gif" alt="Animated blue glowing particles forming and reshaping a sphere on a black background" width="640"></a>
+  <img src="assets/typing.svg" alt="Control Engineering at UESTC · Cooperative control of underwater robots" width="800" height="50">
 </p>
 
 <p align="center">

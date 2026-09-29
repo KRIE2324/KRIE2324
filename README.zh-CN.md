@@ -2,8 +2,10 @@
   <sub><a href="https://github.com/KRIE2324">English ↗</a> &nbsp; / &nbsp; 中文</sub>
 </p>
 
+<h2 align="center">你好，我是 kyrie</h2>
+
 <p align="center">
-  <a href="https://tenor.com/view/spectral-vision-timenotspace-time-space-gif-15111750411617268134"><img src="https://media1.tenor.com/m/0be47xLPcaYAAAAC/spectral-vision.gif" alt="黑色背景中蓝色发光粒子聚散、球体形态变化的动态图" width="640"></a>
+  <img src="assets/typing.svg" alt="电子科技大学 · 控制工程 · 水下机器人协同控制" width="800" height="50">
 </p>
 
 <p align="center">
