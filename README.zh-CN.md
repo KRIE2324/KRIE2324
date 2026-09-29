@@ -9,6 +9,10 @@
 </p>
 
 <p align="center">
+  <img src="assets/ocean.svg" alt="科考船轻摇、水下机器人编队航行与蓝色声波脉冲动画" width="800" height="300">
+</p>
+
+<p align="center">
   <strong>电子科技大学 · 控制工程研究生</strong><br>
   专注于水下机器人协同控制
 </p>

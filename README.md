@@ -9,6 +9,10 @@
 </p>
 
 <p align="center">
+  <img src="assets/ocean.svg" alt="Animated research vessel and three underwater robots with blue sonar pulses" width="800" height="300">
+</p>
+
+<p align="center">
   <strong>Graduate Student in Control Engineering</strong><br>
   University of Electronic Science and Technology of China (UESTC)<br>
   Cooperative control of underwater robots
