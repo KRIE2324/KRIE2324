@@ -1,5 +1,5 @@
-<p align="center">
-  <a href="https://github.com/KRIE2324">English</a> | <strong>简体中文</strong>
+<p align="right">
+  <sub><a href="https://github.com/KRIE2324">English ↗</a> &nbsp; / &nbsp; 中文</sub>
 </p>
 
 <p align="center">
@@ -9,14 +9,6 @@
 <p align="center">
   <strong>电子科技大学 · 控制工程研究生</strong><br>
   专注于水下机器人协同控制
-</p>
-
-<p align="center">
-  <a href="mailto:kyrielrving123789@gmail.com">邮件联系</a>
-  &nbsp; / &nbsp;
-  <a href="https://github.com/KRIE2324/Matlab-Learning">MATLAB 项目</a>
-  &nbsp; / &nbsp;
-  <a href="https://github.com/KRIE2324?tab=repositories">全部仓库</a>
 </p>
 
 ---
@@ -50,4 +42,4 @@ MATLAB 学习与仿真代码仓库，包含 [Eventt11.m](https://github.com/KRIE
 
 ---
 
-<p align="center"><sub>kyrie · KRIE2324</sub></p>
+<p align="center"><sub>kyrie &nbsp; · &nbsp; <a href="https://github.com/KRIE2324?tab=repositories">全部仓库 ↗</a></sub></p>

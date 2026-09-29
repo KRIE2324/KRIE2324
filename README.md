@@ -1,5 +1,5 @@
-<p align="center">
-  <strong>English</strong> | <a href="README.zh-CN.md">简体中文</a>
+<p align="right">
+  <sub>EN &nbsp; / &nbsp; <a href="README.zh-CN.md">简体中文 ↗</a></sub>
 </p>
 
 <p align="center">
@@ -10,14 +10,6 @@
   <strong>Graduate Student in Control Engineering</strong><br>
   University of Electronic Science and Technology of China (UESTC)<br>
   Cooperative control of underwater robots
-</p>
-
-<p align="center">
-  <a href="mailto:kyrielrving123789@gmail.com">Email</a>
-  &nbsp; / &nbsp;
-  <a href="https://github.com/KRIE2324/Matlab-Learning">MATLAB Project</a>
-  &nbsp; / &nbsp;
-  <a href="https://github.com/KRIE2324?tab=repositories">All Repositories</a>
 </p>
 
 ---
@@ -51,4 +43,4 @@ Feel free to reach out to discuss research questions, simulation implementations
 
 ---
 
-<p align="center"><sub>kyrie · KRIE2324</sub></p>
+<p align="center"><sub>kyrie &nbsp; · &nbsp; <a href="https://github.com/KRIE2324?tab=repositories">All repositories ↗</a></sub></p>
